@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity() {
 
         // heyyyyyyyyyyyyyyyyy
 
+        // hey this is branch
+
         if ( ContextCompat.checkSelfPermission( this, android.Manifest.permission.ACCESS_FINE_LOCATION ) != PackageManager.PERMISSION_GRANTED ) {
             ActivityCompat.requestPermissions( this, Array(1){ android.Manifest.permission.ACCESS_FINE_LOCATION}, 1)
         }else{
