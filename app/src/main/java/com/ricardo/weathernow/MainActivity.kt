@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         }
         setContentView(R.layout.activity_main)
 
+        // heyyyyyyyyyyyyyyyyy
 
         if ( ContextCompat.checkSelfPermission( this, android.Manifest.permission.ACCESS_FINE_LOCATION ) != PackageManager.PERMISSION_GRANTED ) {
             ActivityCompat.requestPermissions( this, Array(1){ android.Manifest.permission.ACCESS_FINE_LOCATION}, 1)
